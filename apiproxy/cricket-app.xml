@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="cricket-app">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1460406198038</CreatedAt>
+    <CreatedBy>saisaran007@gmail.com</CreatedBy>
+    <Description>Cricket App</Description>
+    <DisplayName>cricket-app</DisplayName>
+    <LastModifiedAt>1460406198038</LastModifiedAt>
+    <LastModifiedBy>saisaran007@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>build-request</Policy>
+        <Policy>extract-variables</Policy>
+        <Policy>invalid-info</Policy>
+        <Policy>missing-info</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://build-response.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
