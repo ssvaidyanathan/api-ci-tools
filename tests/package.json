@@ -2,7 +2,7 @@
 	"name": "automation-tests",
 	"version": "1.0.0",
 	"devDependencies": {
-		"apickli": "^1.0.0",
-		"cucumber":"^0.5.3"
+		"apickli": "^1.6.3",
+		"cucumber":"^0.10.2"
 	}
 }
