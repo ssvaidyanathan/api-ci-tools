@@ -14,7 +14,7 @@
     </jenkins.model.BuildDiscarderProperty>
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.18.2">
       <projectUrl>https://github.com/ssvaidyanathan/api-ci-tools/</projectUrl>
-      <displayName>api-ci-tools</displayName>
+      <displayName>MYNEWJOB</displayName> <!-- You can provide a name of your choice -->
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
@@ -33,7 +33,6 @@
         <name>origin</name>
         <refspec>+refs/pull/*:refs/remotes/origin/pr/*</refspec>
         <url>https://github.com/ssvaidyanathan/api-ci-tools.git</url>
-        <credentialsId>3821c8ed-648b-4afd-952a-ccefa4b1652b</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -103,8 +102,8 @@ npm install</command>
       <targets>install -Ptest</targets>
       <mavenName>maven-3.3.9</mavenName>
       <properties>organization=saisarantest
-username=saisaran007@gmail.com
-password=Tittu54321</properties>
+username={Apigee username}
+password={Apigee password}</properties>
       <usePrivateRepository>false</usePrivateRepository>
       <settings class="jenkins.mvn.DefaultSettingsProvider"/>
       <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
