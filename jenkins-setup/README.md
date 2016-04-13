@@ -41,5 +41,11 @@ This job helps to build Continuous Integration by using the GitHub Pull Request 
 
 ![GitHub2](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/GitHub-screenshot2.png)
 
+The Cucumber reports on Jenkins looks like this
+
+![Cucumber Report1](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/CucumberReport1.png)
+
+![Cucumber Report2](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/CucumberReport2.png)
+
 
 - You should be able to trigger this job manually by passing a GitHub commit id too
