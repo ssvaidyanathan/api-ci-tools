@@ -14,14 +14,14 @@ This job helps to build Continuous Integration by using the GitHub Pull Request 
 ![plugins3](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/plugins3.png)
 
 - Go to **Jenkins --> Manage Jenkins --> Configure system** to setup the following
-    - Maven
-      - Put screenshot
 
-    - Node
-      - Put screenshot
+![config1](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/config1.png)
 
-    - GitHub Pull Request Plugin
-      - Put screenshot
+![config2](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/config2.png)
+
+![config3](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/config3.png)
+
+![config4](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/config4.png)
 
 - You can download the jenkins-cli.jar from your running Jenkins instance
     **Jenkins --> Manage Jenkins --> Jenkins CLI** - This will download a jenkins-cli jar
