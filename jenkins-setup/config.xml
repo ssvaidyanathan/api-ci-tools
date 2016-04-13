@@ -33,7 +33,6 @@
         <name>origin</name>
         <refspec>+refs/pull/*:refs/remotes/origin/pr/*</refspec>
         <url>https://github.com/ssvaidyanathan/api-ci-tools.git</url>
-        <credentialsId>3821c8ed-648b-4afd-952a-ccefa4b1652b</credentialsId> <!-- Provide your username/password to generate this -->
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
