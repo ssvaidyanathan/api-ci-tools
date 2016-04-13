@@ -1,0 +1,27 @@
+{
+    "configurations": [{
+        "name": "test",
+        "policies": [],
+        "proxies": [],
+        "targets": [{
+            "name": "default.xml",
+            "tokens": [{
+                //"value": "http://saisaran-test.apigee.net/cricket-mock",
+                "value": "https://query.yahooapis.com/v1/public/yql",
+                "xpath": "/TargetEndpoint/HTTPTargetConnection/URL"
+            }]
+        }]
+    },
+    {
+        "name": "prod",
+        "policies": [],
+        "proxies": [],
+        "targets": [{
+            "name": "default.xml",
+            "tokens": [{
+                "value": "https://query.yahooapis.com/v1/public/yql",
+                "xpath": "/TargetEndpoint/HTTPTargetConnection/URL"
+            }]
+        }]
+    }]
+}
