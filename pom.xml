@@ -198,9 +198,6 @@
 							<commandlineArgs>
 								tests/integration.${apickli.env}
 							</commandlineArgs>
-							<commandlineArgs>
-								--format json:reports.json
-							</commandlineArgs>
 						</configuration>
 					</execution>
 				</executions>
