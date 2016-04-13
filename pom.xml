@@ -194,7 +194,7 @@
 									${apigee.env}
 								</NODE_ENV>
 							</environmentVariables>
-							<executable>tests/node_modules/cucumber/bin/cucumber.js</executable>
+							<executable>tests/node_modules/cucumber/bin/cucumber.js --format json:reports.json</executable>
 							<commandlineArgs>
 								tests/integration.${apickli.env}
 							</commandlineArgs>
