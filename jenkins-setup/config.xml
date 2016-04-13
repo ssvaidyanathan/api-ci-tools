@@ -14,7 +14,7 @@
     </jenkins.model.BuildDiscarderProperty>
     <com.coravy.hudson.plugins.github.GithubProjectProperty plugin="github@1.18.2">
       <projectUrl>https://github.com/ssvaidyanathan/api-ci-tools/</projectUrl>
-      <displayName>MYNEWJOB</displayName> <!-- You can provide a name of your choice -->
+      <displayName>api-ci-tools</displayName>
     </com.coravy.hudson.plugins.github.GithubProjectProperty>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
@@ -33,6 +33,7 @@
         <name>origin</name>
         <refspec>+refs/pull/*:refs/remotes/origin/pr/*</refspec>
         <url>https://github.com/ssvaidyanathan/api-ci-tools.git</url>
+        <credentialsId>3821c8ed-648b-4afd-952a-ccefa4b1652b</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -102,8 +103,8 @@ npm install</command>
       <targets>install -Ptest</targets>
       <mavenName>maven-3.3.9</mavenName>
       <properties>organization=saisarantest
-username={Apigee username}
-password={Apigee password}</properties>
+username=saisaran007@gmail.com
+password=Tittu54321</properties>
       <usePrivateRepository>false</usePrivateRepository>
       <settings class="jenkins.mvn.DefaultSettingsProvider"/>
       <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
@@ -114,6 +115,18 @@ password={Apigee password}</properties>
       <testResults>reports.json</testResults>
       <ignoreBadSteps>false</ignoreBadSteps>
     </org.jenkinsci.plugins.cucumber.jsontestsupport.CucumberTestResultArchiver>
+    <net.masterthought.jenkins.CucumberReportPublisher plugin="cucumber-reports@2.1.0">
+      <jsonReportDirectory></jsonReportDirectory>
+      <jenkinsBasePath></jenkinsBasePath>
+      <fileIncludePattern>reports.json</fileIncludePattern>
+      <fileExcludePattern></fileExcludePattern>
+      <skippedFails>false</skippedFails>
+      <pendingFails>false</pendingFails>
+      <undefinedFails>false</undefinedFails>
+      <missingFails>false</missingFails>
+      <ignoreFailedTests>false</ignoreFailedTests>
+      <parallelTesting>false</parallelTesting>
+    </net.masterthought.jenkins.CucumberReportPublisher>
     <com.cloudbees.jenkins.GitHubCommitNotifier plugin="github@1.18.2">
       <statusMessage>
         <content></content>
