@@ -21,6 +21,6 @@ Uses the following:
 **Note:** If the API proxy is running, you can run the Cucumber test features by executing
     "tests/node_modules/cucumber/bin/cucumber.js --format json:reports.json tests/integration.test"
 
-# To execute this via Jenkins:
+# To execute this via Jenkins (using the GitHub Pull request plugin):
 
 Please refer to the [README guide](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/README.md) under jenkins-setup which has the information on the job and the plugins required to setup Jenkins

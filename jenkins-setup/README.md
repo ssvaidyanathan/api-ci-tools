@@ -33,7 +33,13 @@ This job helps to build Continuous Integration by using the GitHub Pull Request 
 
 **NOTE:** You might want to change the config to your appropriate GitHub URLs and Repo. Please provide the Git repo URL as its used to poll for pull requests on your repo.
 
-- To test this job, create a pull request. You will see the job being executed and the entire build goes through and update the pull request with success or failure  with the results and pointing to the Jenkins Job URL
+- To test this job, create a pull request. You will see it kicked the Jenkins job as pending check
+
+![GitHub1](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/GitHub-screenshot1.png)
+
+- Once the Jenkins job is complete and all PASSED, GitHub pull request is ready to merge. You can see it has the details of the job run with the results of the test cases executed.
+
+![GitHub2](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/GitHub-screenshot2.png)
 
 
 - You should be able to trigger this job manually by passing a GitHub commit id too
