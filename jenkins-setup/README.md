@@ -7,7 +7,11 @@ This job helps to build Continuous Integration by using the GitHub Pull Request 
 - Install Jenkins by following this [link](https://jenkins-ci.org)
 - Install the following plugins 
 
-![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+![plugins1](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/plugins1.png)
+
+![plugins2](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/plugins2.png)
+
+![plugins3](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/plugins3.png)
 
 - Go to **Jenkins --> Manage Jenkins --> Configure system** to setup the following
     - Maven
