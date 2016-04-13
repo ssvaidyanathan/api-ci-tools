@@ -30,3 +30,10 @@ This job helps to build Continuous Integration by using the GitHub Pull Request 
 - In Jenkins UI, you should see a new job. 
     - Please provide your GitHub credentials under Source Code Management by clicking the Add button
     - Please provide your Apigee username and password in the Maven build step
+
+**NOTE:** You might want to change the config to your appropriate GitHub URLs and Repo. Please provide the Git repo URL as its used to poll for pull requests on your repo.
+
+- To test this job, create a pull request. You will see the job being executed and the entire build goes through and update the pull request with success or failure  with the results and pointing to the Jenkins Job URL
+
+
+- You should be able to trigger this job manually by passing a GitHub commit id too
