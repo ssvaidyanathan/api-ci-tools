@@ -2,12 +2,14 @@
 
 This README provides instructions and screenshots of setting up the job on Jenkins
 
+This job helps to build Continuous Integration by using the GitHub Pull Request Plugin. By using this plugin, any pull request created on the repo triggers this job and goes through the complete CI cycle and also updates GitHub back with the results of the job. Once this is passed, it allows to merge the pull request.
+
 - Install Jenkins by following this [link](https://jenkins-ci.org)
 - Install the following plugins 
 
 ![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
 
-- Go to Jenkins --> Manage Jenkins --> Configure system to setup the following
+- Go to **Jenkins --> Manage Jenkins --> Configure system** to setup the following
     - Maven
       - Put screenshot
 
@@ -18,5 +20,9 @@ This README provides instructions and screenshots of setting up the job on Jenki
       - Put screenshot
 
 - You can download the jenkins-cli.jar from your running Jenkins instance
-    Jenkins --> Manage Jenkins --> Jenkins cli
-    - Use the [config.xml](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/config.xml) and run the following command **java -jar jenkins-cli.jar -s http://server create-job MYNEWJOB < config.xml**
+    **Jenkins --> Manage Jenkins --> Jenkins CLI** - This will download a jenkins-cli jar
+    - Use the [config.xml](https://github.com/ssvaidyanathan/api-ci-tools/blob/cricket-app/jenkins-setup/config.xml) and run the following command **java -jar jenkins-cli.jar -s http://server create-job {jobName} < config.xml**
+
+- In Jenkins UI, you should see a new job. 
+    - Please provide your GitHub credentials under Source Code Management by clicking the Add button
+    - Please provide your Apigee username and password in the Maven build step
