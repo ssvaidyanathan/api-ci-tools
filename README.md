@@ -21,7 +21,7 @@ Uses the following:
 
 - Execute: mvn install -P{profileID} -Dorganization={Apigee Edge org name} -Dusername={Apigee Edge username} -Dpassword={ApigeeEdge Password}
 
-The profileID can be found in the pom.xml. In this case we have two profiles - "test" and "prod"
+The profileID can be found in the pom.xml "&lt;profiles&gt; section". In this case we have two profiles - "test" and "prod"
 
 **Note:** If the API proxy is running, you can run the Cucumber test features by executing
     "tests/node_modules/cucumber/bin/cucumber.js --format json:reports.json tests/integration.test"
