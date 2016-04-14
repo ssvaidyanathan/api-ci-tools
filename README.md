@@ -16,6 +16,8 @@ Uses the following:
 - Go to tests folder
 - run "npm install"
 - Update the API proxy URL in "tests/integration.test/step-definitions/cricket-app-tests.js" and "tests/integration.prod/step-definitions/cricket-app-tests.js" on line number 7
+        // set the url and base path for your API endpoint on Apigee edge
+        var url = '<Apigee Proxy URL>';
 - Execute: mvn install -P{profileID} -Dorganization={Apigee Edge org name} -Dusername={Apigee Edge username} -Dpassword={ApigeeEdge Password}
 
 **Note:** If the API proxy is running, you can run the Cucumber test features by executing
