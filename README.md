@@ -23,7 +23,7 @@ Uses the following:
 
 The profileID can be found in the pom.xml "&lt;profiles&gt; section". In this case we have two profiles - "test" and "prod"
 
-**Note:** If the API proxy is running, you can run the Cucumber test features by executing
+**Note:** If the API proxy is running, you can run the Cucumber test features by executing 
     "tests/node_modules/cucumber/bin/cucumber.js --format json:reports.json tests/integration.test"
 
 # To execute this via Jenkins (using the GitHub Pull request plugin):
