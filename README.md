@@ -4,6 +4,7 @@ This project can be used as a template to set up Continuous integration for API 
 
 Uses the following:
 - [Jenkins](jenkins-ci.org)
+
 - Maven
     - Static Code Analysis - JSLint
     - API Proxy validation and deployment
