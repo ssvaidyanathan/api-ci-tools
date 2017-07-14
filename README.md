@@ -1,5 +1,5 @@
 # api-ci-tools
-new change
+New change
 This project can be used as a template to set up Continuous integration for API proxies that is being built in [Apigee Edge](https://edge.apigee.com)
 
 Uses the following:
