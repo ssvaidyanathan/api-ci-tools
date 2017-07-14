@@ -6,5 +6,5 @@ image_resource:
   source: {repository: busybox}
 
 run:
-  path: mvn
-  args: [--version]
+  path: echo
+  args: [Hi]
